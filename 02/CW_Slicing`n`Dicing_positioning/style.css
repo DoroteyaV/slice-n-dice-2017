@@ -1,5 +1,5 @@
-html, body, div, h1, h2, h3,
-img, ul, li, a{
+html, body, div, p, h1, h2, h3, img, a,
+ul, li {
 	margin: 0;
 	padding: 0
 }
@@ -10,82 +10,95 @@ html {
 body {
 	width: 100%
 }
+p {
+	font-family: Open Sans, san-serif
+}
 h2 {
 	font-weight: 600;
 	color: #a0f
 }
-p {
-	font-family: Open Sans, san-serif
+ul {
+	list-style-type: none
 }
 a {
-	text-decoration: none
+	text-decoration: none;
+	display: block
 }
 .wrapper {
 	width: 1170px;
-	margin: 0 auto
+	margin: 0 auto;	
 }
-
 /****  SECTION HEADER **********/
 #header {	
 	font-size: 1.4rem;
 	background-color: #9E598B;
 	color: #fff;
-	padding-top: 40px;
-	height: 850px
-}
-#header h1 {
-	display: inline-block;
-	width: 90px
+	height: 860px;
+	padding-top: 40px
 }
 #header #nav {
-	height: 42px
+	background-color: #0DAA14;
+	height: 40px;		
 }
-#header #text {
-	margin-top: 250px	
-}
-#header #text h3 {	
-	font-size: 5.5rem;
-	font-weight: 600;
-	line-height: 40px
-}
-#header #text span {
-	display: block;
-	margin-bottom: 34px
-}
-#header #text p {
-	width: 600px;
-	height: 65px;
-	overflow: hidden;
-	margin-top: 40px
-}
-#header ul {
+#header h1 {
+	width: 100px;
+	background-color: #D126F0;
 	display: inline-block;
-	float: right;
 	line-height: 40px
+}
+#header #nav ul {	
+	background-color: #0BDAFF;
+	width: 730px;
+	height: 100%;	
+	display: inline-block;
+	float: right
+}
+#header #nav ul li {
+	float: left;
+	margin-right: 20px
+}
+#header #nav ul a {
+	padding: 10px;	
+	background-color: #EAC5C5
 }
 #header li {
-	text-transform: uppercase;
-	display: inline-block;
-	margin-right: 20px;
-
+	text-transform: uppercase
 }
-#header li a {
-	color: #fff;
-	padding: 10px
-
-}
-#header li a:hover {
+#header li:hover {
 	color: #443149
 }
-#header #text a {
-	color: #fff;	
-	display: block;
-	width: 145px;
+#header a {
+	color: #fff
+}
+#text h3 {
+	font-family: Open Sans, san-serif;
+	font-size: 5.5rem;
+	font-weight: 600;
 	line-height: 42px;
+	margin-bottom: 40px
+}
+#header #text {
+	margin-top: 245px
+}
+#header span {
+	display: block;
+	margin-bottom: 30px
+}
+#header #text p {
+	line-height: 24px;	
+	width: 600px;
+	height: 68px;
+	overflow: hidden;
+	margin-bottom: 55px
+}
+#header #text a {
+	display: block;
+	width: 146px;
+	/*height: 40px;*/
+	line-height: 40px;
 	text-align: center;
 	border: 2px solid #fff;
-	border-radius: 25px;
-	margin-top: 58px
+	border-radius: 21px
 }
 
 /**** SECTION ABOUT ME ****/
@@ -125,27 +138,3 @@ a {
 	font-size: 1.4rem;
 	color: #585858
 }
-@media only screen and (max-width: 1024px) {
-
-.wrapper {
-	width: 900px; 
-	background-color: #11F627;
-}
-
-}
-@media only screen and (max-width: 800px) {
-
-.wrapper {
-	width: 700px; 
-	background-color: #F61188;
-}
-}
-@media only screen and (max-width: 640px) {
-.wrapper {
-	width: 500px; 
-	background-color: #11F627;
-}
-
-}
-
-

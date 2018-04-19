@@ -1,0 +1,276 @@
+html, body, div, p, h1, h2, h3, img, a,
+ul, li, section {
+	margin: 0;
+	padding: 0
+}
+html {
+	font-size: 62.5%;
+	font-family: Montserrat, san-serif
+}
+body {
+	width: 100%
+}
+p {
+	font-family: Open Sans, san-serif
+}
+h2 {
+	font-weight: 600;
+	color: #a0f
+}
+ul {
+	list-style-type: none
+}
+a {
+	text-decoration: none;
+	display: block
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;	
+}
+/****  SECTION HEADER **********/
+#header {	
+	font-size: 1.4rem;
+	background: url('img/header_bg.png');
+	background-color: #9E598B;
+	color: #fff;
+	height: 860px;
+	padding-top: 40px
+}
+#header #nav {
+	height: 40px;		
+}
+#header h1 {
+	width: 100px;	
+	display: inline-block;
+	line-height: 40px
+}
+
+#header #nav ul {	
+	/*background-color: #0BDAFF;*/
+	width: 730px;
+	height: 100%;	
+	display: inline-block;
+	float: right
+}
+#header #nav ul li {
+	float: left;
+	margin-right: 20px
+}
+#header #nav ul a {
+	padding: 10px;	
+	/*background-color: #EAC5C5*/
+}
+#header li {
+	text-transform: uppercase
+}
+#header li a:hover {
+	color: #443149
+}
+#header a {
+	color: #fff
+}
+#text h3 {
+	font-family: Open Sans, san-serif;
+	font-size: 5.5rem;
+	font-weight: 600;
+	line-height: 42px;
+	margin-bottom: 40px
+}
+#header #text {
+	margin-top: 245px
+}
+#header span {
+	display: block;
+	margin-bottom: 30px
+}
+#header #text p {
+	line-height: 24px;	
+	width: 600px;
+	height: 68px;
+	overflow: hidden;
+	margin-bottom: 55px
+}
+#header #text a {
+	display: block;
+	width: 146px;
+	/*height: 40px;*/
+	line-height: 40px;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 21px
+}
+
+/**** SECTION ABOUT ME ****/
+#about {
+	height: 720px;
+	padding-top: 80px
+}
+#about h2 {
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 26px
+}
+#about section {
+	margin-top: 70px
+}
+#me-socials {
+	width: 400px;
+	height: 100%;
+	display: inline-block
+}
+#me-socials img{
+	display: block;
+	height: 470px;
+	background-color: #5C4B4B
+}
+#me-socials ul {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 290px;
+	height: 40px
+}
+#me-socials ul li {
+	display: inline-block;	
+	background-color: #333;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center
+}
+#me-socials ul li:first-of-type {
+	margin-left: 0
+}
+#me-socials ul li:hover {
+	background-color: #a0f
+}
+
+#me-socials ul li a {
+	display: block;
+	color: #fff;	
+	font-size: 20px;
+	line-height: 20px;
+	padding: 5px;
+	margin-top: 5px;
+}
+#me-info {
+	width: 695px;
+	margin-left: 70px;
+	float: right
+
+}
+#me-info p {
+	margin-top: 35px;	
+	height: 320px
+}
+
+#about h3 {
+	font-size: 2.4rem;
+	color: #333
+}
+#about p {
+	font-size: 1.4rem;
+	color: #585858;
+}
+#about #me-info a {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #333;
+	display: inline-block;
+	margin-top: 40px;
+	width: 182px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border: 2px solid #333;
+	border-radius: 22px
+}
+#about #me-info a:last-of-type {
+	width: 150px;
+	margin-left: 20px
+}
+#about #me-info a:hover {
+	color: #fff;
+	background-color: #a0f;
+	border-color: #a0f
+}
+/**** SECTION MY SERVICES ****/
+#my-services {
+	height: 800px;
+	padding-top: 80px;
+	background-color: #f7f7f7
+}
+#my-services h2 {
+	font-size: 3.0rem;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+p#empty {
+	width: 128px;
+	border: 1px solid #585858;
+	margin: 24px auto;
+}
+p#sub-services {	
+	font-size: 1.4rem;	
+	color: #585858;
+	width: 810px;
+	margin: 0 auto;
+	text-align: center
+
+}
+#container {
+	margin-top: 40px
+}
+#container div {
+	width: 370px;
+	height: 350px;
+	padding-top: 20px;
+	background-color: #fff;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px
+}
+
+#container div:hover {
+	box-shadow: 0 0 10px #bfbfbf;
+}
+#container div:first-of-type, 
+#container div:nth-of-type(4)
+{
+	margin-left: 0
+} 
+#container span {
+	display: block;
+	width: 140px;
+	height: 87px;
+	margin: 35px auto;
+}
+
+#container div:first-of-type span{
+	background: url('img/index.png') no-repeat -555px -917px;
+}
+#container div:nth-of-type(2) span{
+	background: url('img/index.png') no-repeat -127px -917px;
+}
+#container div:nth-of-type(3) span{
+	background: url('img/index.png') no-repeat -341px -917px;	
+}
+#my-services h3 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: #333;
+	text-align: center;
+	line-height: 14px
+}
+#my-services #container p {
+	font-size: 1.4rem;
+	text-align: center;
+	color: #585858;
+	width: 270px;
+	height: 90px;
+	margin: 30px auto
+}
